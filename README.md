@@ -3,7 +3,7 @@
 
 <br />
 
-#### Disclaimer
+## Disclaimer
 _The developer of this program is in no way responsible for the mis-use of this program, including, but not limited to: academic dishonesty, cheating, and any other non-educational use._
 
 <br />
