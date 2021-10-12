@@ -31,7 +31,20 @@ _Python must be installed (included already in the listed calcs above)_
 
 # Usage/Examples
 1. Selection Menu: Enter a number (1-3) to take you to the specified page
-![sel. menu](captures/
+
+![sel. menu](captures/Opt_Menu_TI84.png)
+
+2. ``Recall Save`` (Opt. 1): List all files saved by the TI_GTE program previously
+
+![recall menu](captures/List_Saves_TI84.png)
+
+3. ``New File`` (Opt. 2): Create a new file, write text in it, and save it.
+
+![new file menu](captures/New_File_TI84.png)
+
+4. ``Search Saves`` (Opt. 3): Search for a specified term in all of your saved files
+
+![save menu](captures/Search_Saves_TI84.png)
 
 <br />
 
