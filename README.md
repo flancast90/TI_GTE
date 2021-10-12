@@ -21,11 +21,11 @@ _Python must be installed (included already in the listed calcs above)_
 3. Unzip the TI_GTE folder, and drag the ``TI_GTE.8xv`` file to your calculator (using the installed file tool and a plugged in calculator)
 4. When installed, navigate to the ``PRGM`` menu on your calculator, and select "Python"
 
-![python](captures/Open_Dialogue_TI84.png)
+![python](captures/Python_TI84.png)
 
 5. In the Python dialogue, select the ``TI_GTE`` program, and run it by pressing the ``y=`` key
  
-![open TI_GTE](captures/Python_TI84.png)
+![open TI_GTE](captures/Open_Dialogue_TI84.png)
 
 <br />
 
