@@ -16,7 +16,6 @@ f.write("\nsave_exists = True")
 f.write("\nwhile (save_exists == True):")
 f.write("\n	try:")
 f.write("\n		if (recall_list('GTE'+str(i))):")
-f.write("\n			print('GTE'+str(i)+'\\n')")
 f.write("\n			i = i + 1")
 f.write("\n		else:")
 f.write("\n			save_exists = False")
@@ -44,7 +43,9 @@ for i in range(len(sys.argv)):
 			
 				print("\nStoring file... ")
 				f = open("OUT/transfer.py", "a")
-				f.write("\n\nstore_list('GTE'+str(i), "+str(note_list))
+				f.write("\n\nprint('Going to save file as GTE'+str(i)")
+				f.write("\n\nstore_list('GTE'+str(i), "+str(note_list)+')')
+				f.write("print('Saved.')")
 				f.write("\ni=i+1")
 				f.close()
 				
