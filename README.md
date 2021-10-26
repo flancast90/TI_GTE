@@ -48,6 +48,21 @@ _Python must be installed (included already in the listed calcs above)_
 
 <br />
 
+# Computer2calc using TI_GTE
+TI_GTE also comes with a program to convert computer text files to a format recognized by TI_GTE. The steps below will help you get started transferring your first file!
+```bash
+cd TI_GTE/conversion
+python3 conversion.py your-file-name.txt
+```
+<br />
+
+After doing this, your converted program will be in the ``conversion/OUT`` folder, with the name ``transfer.py``. Simply use TI Connect or another transfer program to drag the ``transfer.py`` file to your calc!
+<br />
+
+Once it's there, you must find the file in the calc python menu, and then run it. You will get a message when the creation is complete, and then it will be recognized by TI_GTE.
+
+<br />
+
 # License
 ```
 Copyright © 2021 Finn Lancaster
