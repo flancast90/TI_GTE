@@ -98,10 +98,10 @@ def text_editor():
 						print("\n\nSaved note as GTE"+str(i))
 				except:
 					LastExisted = False
-                                        disp_clr()
+					disp_clr()
 					
 					print("\n\nSaved note as GTE"+str(i))
-                                        store_list("GTE"+str(i), note_list)
+					store_list("GTE"+str(i), note_list)
 						
 
 		# del key press
