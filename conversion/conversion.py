@@ -43,7 +43,7 @@ for i in range(len(sys.argv)):
 			
 				print("\nStoring file... ")
 				f = open("OUT/transfer.py", "a")
-				f.write("\n\nprint('Going to save file as GTE'+str(i)")
+				f.write("\n\nprint('Going to save file as GTE'+str(i))")
 				f.write("\n\nstore_list('GTE'+str(i), "+str(note_list)+')')
 				f.write("\nprint('Saved.')")
 				f.write("\ni=i+1")
