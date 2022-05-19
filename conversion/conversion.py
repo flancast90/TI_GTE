@@ -36,6 +36,13 @@ for i in range(len(sys.argv)):
 			n = 100
 			f = open(sys.argv[i], "r")
 			txt = f.read()
+			
+			# quick patch since converting '\n' can throw it off
+			# TODO: find and replace all unknown characters
+			for item in txt:
+				if item not in Dict:
+					txt = txt.replace(item, '')
+			
 			write = [txt[index : index + n] for index in range(0, len(txt), n)]	
 			
 			for index in range(len(write)):
